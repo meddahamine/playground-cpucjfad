@@ -3,11 +3,8 @@
 This Java template lets you get started quickly with a simple one-page playground.
 
 ```java runnable
-// { autofold
-// { autofold
 public class Main {
 
-//****************
 static int [][]grille = {
     {0,0,0,0,3,0,0,6,2},
     {0,0,0,0,7,2,0,0,1},
@@ -84,8 +81,6 @@ static int [][]grille = {
       return false; // Je n'ai pas trouvé de valeur correcte
     }
   }
-//****************
-
 
 public static void main(String[] args) {
 // }
@@ -98,8 +93,7 @@ System.out.println(trouveSolution(0,0)+" nombre d'appels="+compteur);
 }
 
 }
-//}
-//}
+
 ```
 
 # Advanced usage
